@@ -13,7 +13,7 @@ class ConvertCase {
   }
 
   static String toSentenceCase(String input) {
-    if (input == null || input.isEmpty) {
+    if (input.isEmpty) {
       return input;
     }
 
@@ -35,7 +35,7 @@ class ConvertCase {
   }
 
   static String toTitleCase(String input) {
-    if (input == null || input.isEmpty) {
+    if (input.isEmpty) {
       return input;
     }
 
@@ -60,7 +60,7 @@ class ConvertCase {
   }
 
   static String toInverseCase(String input) {
-    if (input == null || input.isEmpty) {
+    if (input.isEmpty) {
       return input;
     }
 
@@ -84,7 +84,7 @@ class ConvertCase {
   }
 
   static String toAlternatingCase(String input) {
-    if (input == null || input.isEmpty) {
+    if (input.isEmpty) {
       return input;
     }
 
