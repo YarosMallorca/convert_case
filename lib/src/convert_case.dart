@@ -3,15 +3,27 @@
 // All rights reserved. Use of this source code is governed by
 // a BSD 2-Clause License that can be found in the LICENSE file.
 
+/// Main Convert Case Class
+///
+/// All methods are static and can be called without initializing
 class ConvertCase {
+  /// Converts string to lower case
+  ///
+  /// Accepts a non-nullable string as input
   static String toLowerCase(String input) {
     return input.toLowerCase();
   }
 
+  /// Converts string to UPPER CASE
+  ///
+  /// Accepts a non-nullable string as input
   static String toUpperCase(String input) {
     return input.toUpperCase();
   }
 
+  /// Converts string to Sentence case
+  ///
+  /// Accepts a non-nullable string as input
   static String toSentenceCase(String input) {
     if (input.isEmpty) {
       return input;
@@ -34,6 +46,9 @@ class ConvertCase {
     return output;
   }
 
+  /// Converts string to Title Case
+  ///
+  /// Accepts a non-nullable string as input
   static String toTitleCase(String input) {
     if (input.isEmpty) {
       return input;
@@ -59,6 +74,9 @@ class ConvertCase {
     return output;
   }
 
+  /// Converts string to iNVERSE cASE
+  ///
+  /// Accepts a non-nullable string as input
   static String toInverseCase(String input) {
     if (input.isEmpty) {
       return input;
@@ -83,6 +101,9 @@ class ConvertCase {
     return output;
   }
 
+  /// Converts string to AlTeRnAtInG CaSe
+  ///
+  /// Accepts a non-nullable string as input
   static String toAlternatingCase(String input) {
     if (input.isEmpty) {
       return input;
