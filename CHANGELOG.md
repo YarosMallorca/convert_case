@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Formatted code properly
+
 ## 1.0.2
 
 - Updated README.md

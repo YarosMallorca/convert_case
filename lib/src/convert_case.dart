@@ -1,4 +1,4 @@
-// Copyright (c) 2023, The Constrain project authors.
+// Copyright (c) 2024, The Constrain project authors.
 // Please see the AUTHORS file for details.
 // All rights reserved. Use of this source code is governed by
 // a BSD 2-Clause License that can be found in the LICENSE file.
@@ -38,7 +38,8 @@ class ConvertCase {
       List<String> sentences = line.split(RegExp(r'(?<=[.?!])\s+'));
       // Convert each sentence to sentence case and join them back into a single string
       String sentenceCaseLine = sentences.map((sentence) {
-        return sentence.substring(0, 1).toUpperCase() + sentence.substring(1).toLowerCase();
+        return sentence.substring(0, 1).toUpperCase() +
+            sentence.substring(1).toLowerCase();
       }).join(' ');
       return sentenceCaseLine;
     }).join('\n');
@@ -66,7 +67,8 @@ class ConvertCase {
         if (word.isEmpty) {
           return word;
         }
-        return word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+        return word.substring(0, 1).toUpperCase() +
+            word.substring(1).toLowerCase();
       }).join(' ');
       return titleCaseLine;
     }).join('\n');

@@ -10,17 +10,17 @@ Dart:
 dart pub add convert_case
 ```
 
+Flutter:
+
+```bash
+flutter pub add convert_case
+```
+
 or add to pubspec.yaml:
 
 ```yaml
 dependencies:
   convert_case: ^1.0.2
-```
-
-Flutter:
-
-```bash
-flutter pub add convert_case
 ```
 
 ### Usage
